@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #AA7739;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 0 auto;
+  padding: 80px 0 40px;
+  text-align: center;
+  color: #552F00;
+  background: #FFD9AA;
+}
+
+.title h1 {
+  font-size: 30px;
+}
+
+.container h2 {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.container span {
+  font-weight: bold;
+}

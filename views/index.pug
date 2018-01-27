@@ -1,0 +1,10 @@
+include ./head.pug
+include ./header.pug
+
+.container.form
+  p Zaloguj się, abysmy mogli przejść dalej
+  form(action="/auth/google")
+    input(type="text", name="name" placeholder="name/login")
+    input(type="password", name="password" placeholder="password")
+    button(type="submit") Zatwierdź
+
